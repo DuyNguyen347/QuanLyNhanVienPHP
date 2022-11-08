@@ -28,9 +28,11 @@
                     <li><a href="department.php" target="t3">DS phòng ban</a></li>
                     <li><a href="form3.html" target="t3">DS Quản trị viên</a></li>
                     <li><a href="search.php" target="t3">Tìm kiếm</a></li>
-                    <li><a href="login.php" target="t3">Cập nhật</a></li>
+                    <li><a href="addEmployee.php" target="t3">Thêm nhân viên</a></li>
+                    <li><a href="employeeUpdate.php" target="t3">Cập nhật</a></li>
                     <li><a href="deleteEmployee.php" target="t3">Xoá nhân viên</a></li> 
                     <li><a href="deleteAllForm.php" target="t3">Xoá tất cả</a></li>               
+                    <li><a href="handleLogout.php" target="t3">Đăng xuất</a></li>               
             </ul>
         </div>
     </body>

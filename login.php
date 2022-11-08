@@ -67,6 +67,7 @@
         </form>
         <?php
         if($_POST){
+            session_start();
             $username = $_REQUEST['username'];
             $password = $_REQUEST['password'];
             $link = mysqli_connect("localhost","root","") or die
@@ -77,6 +78,7 @@
             $result=mysqli_query($link,$sql);
             $row = mysqli_fetch_array($result);
             if($row){
+                $_SESSION['username'] = $row['idnv'];
                 header('location:employeeUpdate.php');
             }
             else echo '<p>Ten dang nhap khong dung</p>';
